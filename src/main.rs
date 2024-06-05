@@ -56,7 +56,7 @@ async fn main() {
 }
 
 async fn plain_text() -> &'static str {
-    "Foo"
+    "Foo Bar"
 }
 
 async fn json() -> Json<Value> {
